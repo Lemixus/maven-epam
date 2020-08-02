@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0abb87-a6eb-47f3-9d96-13c8d9dc818a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/ru/robin/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/ru/robin/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/it/ru/robin/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/ru/robin/App.class" afterDir="false" />
@@ -14,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -26,6 +30,9 @@
   <component name="ProjectId" id="1fBmWAPNA8WELP0dK3uyKL6v3aS" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -71,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1595699888284</updated>
     </task>
+    <task id="LOCAL-00001" summary="Программа приветствует любого пользователя при вводе его имени через командную строку">
+      <created>1596394112807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596394112807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Программа приветствует любого пользователя при вводе его имени через командную строку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Программа приветствует любого пользователя при вводе его имени через командную строку" />
   </component>
 </project>
