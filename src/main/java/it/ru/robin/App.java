@@ -4,27 +4,26 @@ package it.ru.robin;
 
 
 import java.io.BufferedReader;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class App
-{
-    public static void main( String[] args ) throws IOException {
+import java.util.ArrayList;
+
+public class App {
+    public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter aray length: ");
-        String ssize = reader.readLine();
-        int size = Integer.parseInt(ssize);
-        String massiv[]=new String[size];
-        System.out.println("Enter value of array: ");
-        for(int i=0; i < size; i++){
-            massiv[i] = reader.readLine();
+        String array[];
+        String li = reader.readLine();
+        String delimeter = " ";
+        array = li.split(delimeter);
+        for(int i= 0; i < array.length;i++){
+            System.out.println(array[i]);
         }
-        String array="";
-        for(int i=size-1; i >=0; i--){
-            array = array + " " + massiv[i];
+        for(int i= 0; i < array.length;i++){
+            System.out.print(array[i]+ " ");
         }
 
-        System.out.println("Reverse array: "+ array);
 
     }
 }
