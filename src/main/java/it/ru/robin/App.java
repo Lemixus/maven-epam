@@ -2,29 +2,36 @@
 //1. I can win!
 package it.ru.robin;
 
-
 import java.io.BufferedReader;
+import java.io.Console;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class App
-{
-    public static void main( String[] args ) throws IOException {
+public class App {
+    public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter aray length: ");
-        String ssize = reader.readLine();
-        int size = Integer.parseInt(ssize);
-        String massiv[]=new String[size];
-        System.out.println("Enter value of array: ");
-        for(int i=0; i < size; i++){
-            massiv[i] = reader.readLine();
+        String num = reader.readLine();
+        String delimeter = " ";
+        String[] array = num.split(delimeter);
+        int[] massiv = new int[array.length];
+
+        for(int i = 0; i < array.length; i++) {
+
+            massiv[i]= Integer.parseInt(array[i]);
         }
-        String array="";
-        for(int i=size-1; i >=0; i--){
-            array = array + " " + massiv[i];
+        int summary = 0;
+        int mult = 1;
+
+        for (int i=0; i < massiv.length; i++) {
+            summary += massiv[i];
+            mult *=massiv[i];
+
         }
 
-        System.out.println("Reverse array: "+ array);
+        System.out.print(summary + "\n" + mult);
+
+
+
 
     }
 }
