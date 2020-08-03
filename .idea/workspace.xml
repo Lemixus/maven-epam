@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b0abb87-a6eb-47f3-9d96-13c8d9dc818a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/ru/robin/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/ru/robin/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/it/ru/robin/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/ru/robin/App.class" afterDir="false" />
-    </list>
+    <list default="true" id="2b0abb87-a6eb-47f3-9d96-13c8d9dc818a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -101,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Программа приветствует любого пользователя при вводе его имени через командную строку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Программа приветствует любого пользователя при вводе его имени через командную строку" />
+    <MESSAGE value="Программа подсчитывает сумму  введенных  и произведение чисел и выводит результат в консоль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Программа подсчитывает сумму  введенных  и произведение чисел и выводит результат в консоль" />
   </component>
 </project>
