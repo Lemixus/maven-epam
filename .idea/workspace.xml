@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0abb87-a6eb-47f3-9d96-13c8d9dc818a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/ru/robin/sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/ru/robin/Average.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sort">
+  <component name="RunManager" selected="Application.Average">
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.ru.robin.Average" />
+      <module name="maven-epam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.ru.robin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.ru.robin.MaxMin" />
       <module name="maven-epam" />
@@ -95,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Average" />
         <item itemvalue="Application.sort" />
         <item itemvalue="Application.MaxMin" />
         <item itemvalue="Application.month" />
@@ -133,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596693211102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Вывести числа в порядке возрастания (убывания) значений их длины.">
+      <created>1596694448078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596694448078</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +175,7 @@
     <MESSAGE value="Программа подсчитывает сумму  введенных  и произведение чисел и выводит результат в консоль" />
     <MESSAGE value="Программа после ввода цифры от 1 до 12 выводит название месяца" />
     <MESSAGE value="самое короткое и самое длинное число. Вывести найденные числа и их длину." />
-    <option name="LAST_COMMIT_MESSAGE" value="самое короткое и самое длинное число. Вывести найденные числа и их длину." />
+    <MESSAGE value="Вывести числа в порядке возрастания (убывания) значений их длины." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вывести числа в порядке возрастания (убывания) значений их длины." />
   </component>
 </project>
